@@ -245,14 +245,29 @@ section.banner .banner-content a:hover{
     font-weight: 700;
     font-size: 1.5em;
 }
+.Proyectos{
+    background: rgb(9,71,55);
+    background: linear-gradient(155deg, rgba(9,71,55,.9) 0%, rgba(5,129,115,.9) 47%, rgba(0,222,92,.9) 100%);
+}
+
+.Proyectos .titulo-claro{
+    margin: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;    
+    text-align: center;
+}
+.titulo-claro span{
+    color: #ff0800;
+    font-weight: 700;
+    font-size: 1.5em;
+}
 .section-card{    
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     
-    background: rgb(9,71,55);
-    background: linear-gradient(155deg, rgba(9,71,55,.9) 0%, rgba(5,129,115,.9) 47%, rgba(0,222,92,.9) 100%);
 }
 .card {
     margin: 50px 20px;
@@ -399,6 +414,7 @@ section.banner .banner-content a:hover{
 /** =                 Sección de contacto                      = **/
 /** ============================================================ **/
 .contacto{    
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -407,6 +423,13 @@ section.banner .banner-content a:hover{
 .contenedor{
     width:80%;
     padding:20px;
+    z-index: 5;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .contenedor .fila{
@@ -521,7 +544,13 @@ section.banner .banner-content a:hover{
     font-weight: 700;
 }
 
-
+.contacto .montanias{
+    position: absolute;
+    left: 0;
+    bottom: -100;
+    width: 100%;
+    
+}
 @media screen and (max-width: 768px) {
 /** ============================================================ **/
 /** =                 Estilos para la barra de navegación      = **/
