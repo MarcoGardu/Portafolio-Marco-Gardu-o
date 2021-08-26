@@ -24,10 +24,11 @@
                 <input type="checkbox" id="nav-toggle">
                 <div class="logo">Portafolio<strong>&nbsp;Marco</strong></div>
                 <ul class="links">
-                    <li><a href="#banner">Inicio</a></li>
-                    <li><a href="#acerca">Acerca</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a id="btn-inicio">Inicio</a></li>
+                    <li><a id="btn-acerca">Acerca</a></li>
+                    <li><a id="btn-proyectos">Proyectos</a></li>
+                    <li><a id="btn-conocimientos">Conocimientos</a></li>
+                    <li><a id="btn-contacto">Contacto</a></li>
                 </ul>
                 <label for="nav-toggle" class="icon-burger">
                     <div class="line"></div>
@@ -50,7 +51,7 @@
                     <a id="boton-contacto" role="button">Contáctame</a>
                 </div>
             </section>
-
+            
             <section class="acerca mt-4" id="acerca">
                 <div class="row">
                     <div class="col50" data-center-center="opacity:1; left: 0px" data-0-bottom="opacity:0; left: -200px">
@@ -83,7 +84,7 @@
                     </div>
                 </div>                
             </section>
-
+            
             <section class="Proyectos mt-5" id="proyectos">
                 <h2 class="titulo-claro"><span>M</span>is Proyectos</h2>
                 <div class="section-card">
@@ -168,8 +169,8 @@
                     </div>  
                 </div>
             </section>
-            
-            <section class="tecnologias">
+                        
+            <section class="tecnologias mt-5" id="conocimientos">
                 <h2 class="titulo-claro" style="text-align: center;"><span>M</span>is conocimientos.</h2> 
                 <div class="tecnologia">
                     <div class="card-tec" data-center-center="opacity:1; bottom: 0px" data-0-bottom="opacity:0; bottom: -100px" >
@@ -235,7 +236,6 @@
                     </div>
                 </div>
             </section>
-
             
             <section class="contacto" id="contacto">
                 <div class="contenedor">
@@ -311,9 +311,14 @@
         <script type="text/javascript" src="js/skrollr.min.js"></script>
         <script type="text/javascript">
             console.log(screen.width);
-            if(screen.width > 1000){
+            if(screen.width > 640){
                 var s = skrollr.init();                
-            }            
+            }
         </script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+
+        <script src="js/animar_desplazamiento.min.js"></script>
     </body>
 </html>

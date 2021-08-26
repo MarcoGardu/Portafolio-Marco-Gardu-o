@@ -6,7 +6,10 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif, Tahoma;
 }
-
+body{
+    margin: 0;
+    padding: 0;
+}
 .mt-4{ margin-top: 75px; }
 .mt-5{ margin-top: 100px; }
 /** ======================================================================================================= **/
@@ -546,7 +549,7 @@ section.banner .banner-content a:hover{
 .contacto .montanias{
     position: absolute;
     left: 0;
-    bottom: 0px;
+    bottom: -50px;
     width: 100%;
     
 }
