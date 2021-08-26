@@ -310,8 +310,11 @@
         <script type="text/javascript" src="js/banner.min.js"></script>
         <script type="text/javascript" src="js/skrollr.min.js"></script>
         <script type="text/javascript">
-            var s = skrollr.init();
-            skrollr.menu.init(s, {animate: true});
+            console.log(screen.width);
+            if(screen.width > 1000){
+                var s = skrollr.init();
+                skrollr.menu.init(s, {animate: true});
+            }            
         </script>
     </body>
 </html>
