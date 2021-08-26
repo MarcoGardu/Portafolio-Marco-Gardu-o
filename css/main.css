@@ -746,6 +746,12 @@ section.banner .banner-content a:hover{
         width: 120px;
         height: 120px;
     }
+    .contenedor .fila{
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    }
 }
 @media screen and (max-width: 380px){
     .contenedor .fila{
