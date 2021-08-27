@@ -553,7 +553,10 @@ section.banner .banner-content a:hover{
     width: 100%;
     
 }
-
+.hideme{
+    opacity: 0;
+    padding-top: 20px;
+}
 @media screen and (max-width: 991px){
     .mt-4{ margin-top: 50px; }
     .mt-5{ margin-top: 75px; }
