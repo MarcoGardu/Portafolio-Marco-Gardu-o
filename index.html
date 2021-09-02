@@ -2,7 +2,6 @@
 <html lang="en">
     <head>        
         
-
         <title>Portafolio</title>
         <meta name='language' content='ES'>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,8 +12,9 @@
         <meta name="author" content="Marco Antonio Garduño Correa" />
         <meta name="copyright" content="© 2021 MG" />
 
-        <link rel="stylesheet" type="text/css" href="css/main.min.css"/>
-        
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
         <link rel="shortcut icon" href="assets/icons/Portafolio.png" />
         
     </head>
@@ -52,7 +52,7 @@
                 </div>
             </section>
             
-            <section class="acerca mt-4" id="acerca">
+            <section class="acerca m-t-4" id="acerca">
                 <div class="row">
                     <div class="col50 hideme" >
                         <h2 class="titulo"><span>S</span>obre mi</h2>
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-4"></div>
+                <div class="row"></div>
                 <div class="row">
                     <div class="col50 hideme">
                         <div class="imgBx">
@@ -85,14 +85,15 @@
                 </div>                
             </section>
             
-            <section class="Proyectos mt-5" id="proyectos">
+            <section class="Proyectos m-t-5" id="proyectos">
                 <h2 class="titulo-claro"><span>M</span>is Proyectos</h2>
                 <div class="section-card">
-                    <div class="card">
+                    <div class="card hideme2">
                         <div class="image">
                             <img src="assets/img/proyectos/proyecto1.png" loading="lazy"/>
                         </div>
-                        <div class="pulse"></div><span class="ver-mas">Ver detalles</span>
+                        <div class="pulse"></div>
+                        
                         <div class="details">
                             <div class="center">
                                 <h1>Desarrolla tu potencial en UPIICSA</h1>
@@ -104,14 +105,15 @@
                                     <li><a href="https://git-scm.com/" title="GIT"><i class="fab fa-git-square" aria-hidden="true"></i></i></a></li>
                                     <li><a href="https://github.com/" title="GITHUB"><i class="fab fa-github" aria-hidden="true"></i></i></a></li>
                                 </ul>
+                                <button class="ver-mas" data-bs-toggle="modal" data-bs-target="#ProyectoUnoModal">Ver detalles</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card hideme2">
                         <div class="image">
                             <img src="assets/img/proyectos/proyecto2.PNG" loading="lazy"/>
                         </div>
-                        <div class="pulse"></div><span class="ver-mas">Ver detalles</span>
+                        <div class="pulse"></div>
                         <div class="details">
                             <div class="center">
                                 <h1>Administrardor e-commerce</h1>
@@ -124,14 +126,15 @@
                                     <li><a href="https://www.javascript.com/" title="JS"><i class="fab fa-js"></i></a></li>
                                     <li><a href="https://www.mysql.com/" title="MySQL" ><i class="fas fa-database" aria-hidden="true"></i></a><li>                                
                                 </ul>
+                                <button class="ver-mas" data-bs-toggle="modal" data-bs-target="#ProyectoDosModal">Ver detalles</button>
                             </div>
                         </div>
                     </div>  
-                    <div class="card">
+                    <div class="card hideme2">
                         <div class="image">
                             <img src="assets/img/proyectos/proyecto3.png" loading="lazy"/>
                         </div>
-                        <div class="pulse"></div><span class="ver-mas">Ver detalles</span>
+                        <div class="pulse"></div>
                         <div class="details">
                             <div class="center">
                                 <h1>E-commerce</h1>
@@ -146,14 +149,15 @@
                                     <li><a href="https://www.javascript.com/" title="JS"><i class="fab fa-js"></i></a></li>
                                     <li><a href="https://www.mysql.com/" title="MySQL"><i class="fas fa-database" aria-hidden="true"></i></a></li>
                                 </ul>
+                                <button class="ver-mas" data-bs-toggle="modal" data-bs-target="#ProyectoTresModal">Ver detalles</button>
                             </div>
                         </div>
                     </div>  
-                    <div class="card">
+                    <div class="card hideme2">
                         <div class="image">
                             <img src="assets/img/proyectos/Proyecto4.png" loading="lazy"/>
                         </div>
-                        <div class="pulse"></div><span class="ver-mas">Ver detalles</span>
+                        <div class="pulse"></div>
                         <div class="details">
                             <div class="center">
                                 <h1>Portafolio</h1>
@@ -164,14 +168,15 @@
                                     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html" title="CSS"><i class="fab fa-css3-alt" aria-hidden="true"></i></a></li>                                
                                     <li><a href="https://www.javascript.com/" title="JS"><i class="fab fa-js"></i></a></li>                                
                                 </ul>
+                                <button class="ver-mas" data-bs-toggle="modal" data-bs-target="#ProyectoCuatroModal">Ver detalles</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card hideme2">
                         <div class="image">
                             <img src="assets/img/proyectos/Farmacia.png" loading="lazy"/>
                         </div>
-                        <div class="pulse"></div><span class="ver-mas">Ver detalles</span>
+                        <div class="pulse"></div>
                         <div class="details">
                             <div class="center">
                                 <h1>Sistema de farmacia</h1>
@@ -181,14 +186,15 @@
                                     <li><a href="https://html.com/" title="HTML"><i class="fab fa-java" aria-hidden="true"></i></a></li>
                                     <li><a href="https://www.mysql.com/" title="MySQL"><i class="fas fa-database" aria-hidden="true"></i></a></li>                                
                                 </ul>
+                                <button class="ver-mas" data-bs-toggle="modal" data-bs-target="#ProyectoCincoModal">Ver detalles</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card hideme2">
                         <div class="image">
                             <img src="assets/img/proyectos/AdministradorPedidos.png" loading="lazy"/>
                         </div>
-                        <div class="pulse"></div><span class="ver-mas">Ver detalles</span>
+                        <div class="pulse"></div>
                         <div class="details">
                             <div class="center">
                                 <h1>Administrador de pedidos</h1>
@@ -197,15 +203,16 @@
                                 <ul>
                                     <li><a href="https://html.com/" title="HTML"><i class="fab fa-java" aria-hidden="true"></i></a></li>
                                     <li><a href="https://www.mysql.com/" title="MySQL"><i class="fas fa-database" aria-hidden="true"></i></a></li> 
-                                    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html" title="CSS"><i class="fab fa-css3-alt" aria-hidden="true"></i></a></li>                                                        
+                                    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html" title="CSS"><i class="fab fa-css3-alt" aria-hidden="true"></i></a></li>                                                     
                                 </ul>
+                                <button class="ver-mas" data-bs-toggle="modal" data-bs-target="#ProyectoSeisModal">Ver detalles</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
                         
-            <section class="tecnologias mt-5" id="conocimientos">
+            <section class="tecnologias m-t-4" id="conocimientos">
                 <h2 class="titulo-claro" style="text-align: center;"><span>M</span>is conocimientos.</h2> 
                 <div class="tecnologia">
                     <div class="card-tec hideme">
@@ -339,27 +346,390 @@
         </section>
 
         
-        <script src="https://kit.fontawesome.com/b0f70672d9.js" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/banner.min.js"></script>
+        
+        <!-- Modal del proyecto número 1, Desarrolla tu potencial en UPIICSA -->
+        <div class="modal fade" id="ProyectoUnoModal" tabindex="-1" aria-labelledby="ProyectoUnoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ProyectoUnoModalLabel">Desarrolla tu potencial en UPIICSA</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="CarouselP1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#CarouselP1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#CarouselP1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#CarouselP1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/proyectos/Desarrolla tu potencial/1.png" alt="Pantalla 1" width="360px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Desarrolla tu potencial/2.png" alt="Pantalla 2" width="360px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Desarrolla tu potencial/3.png" alt="Pantalla 3" width="360px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP1" data-bs-slide="prev" style="background: rgb(51, 51, 51);">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#CarouselP1" data-bs-slide="next" style="background: rgb(51, 51, 51);">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal del proyecto número 2, Administradr de Eccomerce -->
+        <div class="modal fade" id="ProyectoDosModal" tabindex="-1" aria-labelledby="ProyectoDosModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ProyectoDosModalLabel">Administración de Eccomerce</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="CarouselP2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#CarouselP2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#CarouselP2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#CarouselP2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#CarouselP2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#CarouselP2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#CarouselP2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#CarouselP2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#CarouselP2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#CarouselP2" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                <button type="button" data-bs-target="#CarouselP2" data-bs-slide-to="9" aria-label="Slide 10"></button>                                
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/1.PNG" alt="Pantalla 1" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/2.PNG" alt="Pantalla 2" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/3.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/4.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/5.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/6.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/7.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/8.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/9.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/10.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP2" data-bs-slide="prev" style="background: rgb(51, 51, 51);">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#CarouselP2" data-bs-slide="next" style="background: rgb(51, 51, 51);">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- Modal del proyect 3, Eccomerce básico-->
+        <div class="modal fade" id="ProyectoTresModal" tabindex="-1" aria-labelledby="ProyectoTresModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ProyectoTresModalLabel">Eccomerce básico</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="CarouselP3" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#CarouselP3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#CarouselP3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#CarouselP3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#CarouselP3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#CarouselP3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#CarouselP3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#CarouselP3" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/proyectos/Web Eccomerce/1.PNG" alt="Pantalla 1" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Web Eccomerce/2.PNG" alt="Pantalla 2" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Web Eccomerce/3.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Web Eccomerce/4.PNG" alt="Pantalla 4" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Web Eccomerce/5.PNG" alt="Pantalla 5" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Web Eccomerce/6.PNG" alt="Pantalla 6" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Web Eccomerce/7.PNG" alt="Pantalla 7" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP3" data-bs-slide="prev" style="background: rgb(51, 51, 51);">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#CarouselP3" data-bs-slide="next" style="background: rgb(51, 51, 51);">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal del proyecto número 4, Portafolio de proyectos-->
+        <div class="modal fade" id="ProyectoCuatroModal" tabindex="-1" aria-labelledby="ProyectoCuatroModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ProyectoCuatroModalLabel">Portafolio</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="CarouselP4" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#CarouselP4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#CarouselP4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#CarouselP4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#CarouselP4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#CarouselP4" data-bs-slide-to="4" aria-label="Slide 5"></button>                                                                
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/proyectos/Portafolio/1.PNG" alt="Pantalla 1" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Portafolio/2.PNG" alt="Pantalla 2" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Portafolio/3.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Portafolio/4.PNG" alt="Pantalla 4" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/proyectos/Portafolio/5.PNG" alt="Pantalla 5" width="720px" height="420px" class="d-block mx-auto">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>...</h5>
+                                        <p>...</p>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP4" data-bs-slide="prev" style="background: rgb(51, 51, 51);">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#CarouselP4" data-bs-slide="next" style="background: rgb(51, 51, 51);">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal del proyecto número 5, sistema de ventas para farmacia-->
+        <div class="modal fade" id="ProyectoCincoModal" tabindex="-1" aria-labelledby="ProyectoCincoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ProyectoCincoModalLabel">Sistema de ventas farmaceutico</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ProyectoSeisModal" tabindex="-1" aria-labelledby="ProyectoSeisModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ProyectoSeisModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ProyectoSieteModal" tabindex="-1" aria-labelledby="ProyectoSieteModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ProyectoSieteModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- JQuery para animar cuando se da clic en un link-->
+        <script src="js/jquery-3.6.0.min.js" ></script>
+        <!-- JS de Bootstrap para modales y carrusel-->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Importamos el kit para usar font awesome para iconos -->
+        <script src="https://kit.fontawesome.com/b0f70672d9.js" crossorigin="anonymous"></script>
+        <!-- Animación de movimiento de imagenes en la parte superior-->
+        <script type="text/javascript" src="js/banner.min.js"></script>
+        <!-- Animación de movimiento dal dar clic a enlace de parte superior-->
         <script src="js/animar_desplazamiento.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                /* Every time the window is scrolled ... */
-                $(window).scroll( function(){
-                    /* Check the location of each desired element */
-                    $('.hideme').each( function(i){
-                        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-                        var bottom_of_window = $(window).scrollTop() + $(window).height();
-                        
-                        /* If the object is completely visible in the window, fade it it */
-                        if( bottom_of_window > (bottom_of_object - 150)){
-                            $(this).animate({'opacity':'1'}, 1000);
-                        }
-                    }); 
-                });
-            });
-        </script>
+        <!-- Animación de elementos para a arecer en pantalla-->
+        <script src="js/aperecer-elemento.js"></script>
+      
     </body>
 </html>
+
