@@ -565,6 +565,13 @@ section.banner .banner-content a:hover{
 .hideme2{
     opacity: 0;    
 }
+
+
+.imagen-carousel1{
+    width:480px; 
+    height:720px;
+    margin-bottom: 10px;
+}
 @media screen and (max-width: 991px){
     .m-t-4{ margin-top: 50px; }
     .m-t-5{ margin-top: 75px; }
