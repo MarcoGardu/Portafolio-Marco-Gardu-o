@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>        
-        
+    <head>                
         <title>Portafolio</title>
         <meta name='language' content='ES'>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -15,20 +14,19 @@
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 
-        <link rel="shortcut icon" href="assets/icons/Portafolio.png" />
-        
+        <link rel="shortcut icon" href="assets/icons/Portafolio.png" />        
     </head>
     <body>
         <header>
             <nav>
                 <input type="checkbox" id="nav-toggle">
-                <div class="logo">Portafolio<strong>&nbsp;Marco</strong></div>
+                <div class="logo">Portafolio<strong>&nbsp;Marco</strong>&nbsp;<i class="fas fa-business-time" style="color:rgb(206, 170, 105)"></i></div>
                 <ul class="links">
-                    <li><a id="btn-inicio">Inicio</a></li>
-                    <li><a id="btn-acerca">Acerca</a></li>
-                    <li><a id="btn-proyectos">Proyectos</a></li>
-                    <li><a id="btn-conocimientos">Conocimientos</a></li>
-                    <li><a id="btn-contacto">Contacto</a></li>
+                    <li><a id="btn-inicio" href="#banner">Inicio</a></li>
+                    <li><a id="btn-acerca" href="#acerca">Acerca</a></li>
+                    <li><a id="btn-proyectos" href="#proyectos">Proyectos</a></li>
+                    <li><a id="btn-conocimientos" href="#conocimientos">Conocimientos</a></li>
+                    <li><a id="btn-contacto" href="#contacto">Contacto</a></li>
                 </ul>
                 <label for="nav-toggle" class="icon-burger">
                     <div class="line"></div>
@@ -48,7 +46,7 @@
                 <div class="banner-content">
                     <h2 id="texo-principal">Hola soy Marco Antonio</h2>
                     <p id="texto-secundario">Programador Jr.</p>
-                    <a id="boton-contacto" role="button">Contáctame</a>
+                    <a id="boton-contacto" role="button" href="#contacto">Contáctame</a>
                 </div>
             </section>
             
@@ -88,7 +86,7 @@
             <section class="Proyectos m-t-5" id="proyectos">
                 <h2 class="titulo-claro"><span>M</span>is Proyectos</h2>
                 <div class="section-card">
-                    <div class="card hideme2">
+                    <div class="card">
                         <div class="image">
                             <img src="assets/img/proyectos/proyecto1.png" loading="lazy"/>
                         </div>
@@ -109,7 +107,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card hideme2">
+                    <div class="card">
                         <div class="image">
                             <img src="assets/img/proyectos/proyecto2.PNG" loading="lazy"/>
                         </div>
@@ -130,7 +128,7 @@
                             </div>
                         </div>
                     </div>  
-                    <div class="card hideme2">
+                    <div class="card">
                         <div class="image">
                             <img src="assets/img/proyectos/proyecto3.png" loading="lazy"/>
                         </div>
@@ -153,7 +151,7 @@
                             </div>
                         </div>
                     </div>  
-                    <div class="card hideme2">
+                    <div class="card">
                         <div class="image">
                             <img src="assets/img/proyectos/Proyecto4.png" loading="lazy"/>
                         </div>
@@ -163,7 +161,8 @@
                                 <h1>Portafolio</h1>
                                 <p>Sitio web para dar a conocer información personal, proyectos y experiencia en como desarrollador. 
                                 </p>
-                                <ul>                                
+                                <ul>   
+                                    <li><a href="https://getbootstrap.com/docs/4.0/components/buttons/" title="Bootstrap"><i class="fab fa-bootstrap" aria-hidden="true"></i></a></li>                             
                                     <li><a href="https://html.com/" title="HTML"><i class="fab fa-html5" aria-hidden="true"></i></a></li>
                                     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html" title="CSS"><i class="fab fa-css3-alt" aria-hidden="true"></i></a></li>                                
                                     <li><a href="https://www.javascript.com/" title="JS"><i class="fab fa-js"></i></a></li>                                
@@ -172,7 +171,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card hideme2">
+                    <div class="card">
                         <div class="image">
                             <img src="assets/img/proyectos/Farmacia.png" loading="lazy"/>
                         </div>
@@ -183,14 +182,14 @@
                                 <p>Sistema que permite la gestión de inventario, clientes, proveedores y ventas para una farmacia.
                                 </p>
                                 <ul>
-                                    <li><a href="https://html.com/" title="HTML"><i class="fab fa-java" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.java.com/es/download/ie_manual.jsp" title="JAVA"><i class="fab fa-java" aria-hidden="true"></i></a></li>
                                     <li><a href="https://www.mysql.com/" title="MySQL"><i class="fas fa-database" aria-hidden="true"></i></a></li>                                
                                 </ul>
                                 <button class="ver-mas" data-bs-toggle="modal" data-bs-target="#ProyectoCincoModal">Ver detalles</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card hideme2">
+                    <div class="card">
                         <div class="image">
                             <img src="assets/img/proyectos/AdministradorPedidos.png" loading="lazy"/>
                         </div>
@@ -201,11 +200,32 @@
                                 <p>Sistema que permite la gestión de pedidos e inventario para un ecommerce, desde una aplicación local.
                                 </p>
                                 <ul>
-                                    <li><a href="https://html.com/" title="HTML"><i class="fab fa-java" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.java.com/es/download/ie_manual.jsp" title="JAVA"><i class="fab fa-java" aria-hidden="true"></i></a></li>
                                     <li><a href="https://www.mysql.com/" title="MySQL"><i class="fas fa-database" aria-hidden="true"></i></a></li> 
                                     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html" title="CSS"><i class="fab fa-css3-alt" aria-hidden="true"></i></a></li>                                                     
                                 </ul>
                                 <button class="ver-mas" data-bs-toggle="modal" data-bs-target="#ProyectoSeisModal">Ver detalles</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="assets/img/proyectos/libreria.png" loading="lazy"/>
+                        </div>
+                        <div class="pulse"></div>
+                        <div class="details">
+                            <div class="center">
+                                <h1>Aplicación para librería</h1>
+                                <p>Aplicación web que permite consultar libros de una librería local, así como la gestión de libros en la biblioteca.
+                                </p>
+                                <ul>
+                                    <li><a href="https://getbootstrap.com/docs/4.0/components/buttons/" title="Bootstrap"><i class="fab fa-bootstrap" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html" title="CSS"><i class="fab fa-css3-alt" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://html.com/" title="HTML"><i class="fab fa-java" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.microsoft.com/es-mx/sql-server/sql-server-downloads" title="SQL Server"><i class="fas fa-database" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://dotnet.microsoft.com/apps/aspnet" title="asp .Net">aspx</i></a></li>
+                                </ul>
+                                <button class="ver-mas" data-bs-toggle="modal" data-bs-target="#ProyectoSieteModal">Ver detalles</button>
                             </div>
                         </div>
                     </div>
@@ -281,6 +301,7 @@
             <section class="contacto" id="contacto">
                 <div class="contenedor">
                     <h2 class="titulo-claro"><span>C</span>ontactame</h2>
+                    
                     <form method="post">
                         <div class="fila">    
                             <div class="columna">
@@ -293,7 +314,7 @@
         
                             <div class="columna">
                                 <div class="cajaEntrada">
-                                    <input type="text" name="Correo" required="required" />
+                                    <input type="text" name="_replyto" required="required" />
                                     <span class="texto">Correo eléctronico:</span>
                                     <span class="linea"></span>
                                 </div>
@@ -303,7 +324,7 @@
                         <div class="fila">
                             <div class="columna">
                                 <div class="cajaEntrada textarea">
-                                    <textarea name="Mensaje" required="required"></textarea>
+                                    <textarea name="message" required="required"></textarea>
                                     <span class="texto">Mensaje:</span>
                                     <span class="linea"></span>
                                 </div>
@@ -316,7 +337,7 @@
                                     <input type="submit" value="Enviar"/>
                                 </div>
                             </div>
-                        </div>
+                        </div>                                                     
                     </form>
                 </div>    
                 <div class="montanias hideme">
@@ -343,9 +364,7 @@
                     </svg>
                 </div>                
             </section>            
-        </section>
-
-        
+        </section>        
         
         <!-- Modal del proyecto número 1, Desarrolla tu potencial en UPIICSA -->
         <div class="modal fade" style="z-index: 10000;" id="ProyectoUnoModal" tabindex="-1" aria-labelledby="ProyectoUnoModalLabel" aria-hidden="true">
@@ -363,21 +382,21 @@
                                         <h5 class="text-success fw-bold">Página de inicio</h5>
                                         <p class="">Información general de la profesora Sara Méndez García y materias que imparte.</p>                                     
                                     </div> 
-                                    <img src="assets/img/proyectos/Desarrolla tu potencial/1.png" alt="Pantalla 1" class="d-block mx-auto imagen-carousel1">                                                                                                            
+                                    <img src="assets/img/proyectos/Desarrolla tu potencial/1.png" alt="Pantalla 1" class="d-block mx-auto imagen-carousel1" loading="lazy">                                                                                                            
                                 </div>
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Página de destacados</h5>
                                         <p>Muestra información de anuncios de clases y recursos generales de utilidad.</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Desarrolla tu potencial/2.png" alt="Pantalla 2" class="d-block mx-auto imagen-carousel1">
+                                    <img src="assets/img/proyectos/Desarrolla tu potencial/2.png" alt="Pantalla 2" class="d-block mx-auto imagen-carousel1" loading="lazy">
                                 </div>
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Estructura de página para materias.</h5>
                                         <p>Cada materia cuenta con la misma estructura cambiando solo su contenido (en este ejemplo solo se muestra 1 de 6 materias).</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Desarrolla tu potencial/3.png" alt="Pantalla 3" class="d-block mx-auto imagen-carousel1">
+                                    <img src="assets/img/proyectos/Desarrolla tu potencial/3.png" alt="Pantalla 3" class="d-block mx-auto imagen-carousel1" loading="lazy">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP1" data-bs-slide="prev" >
@@ -410,70 +429,70 @@
                                         <h5 class="text-success fw-bold">Página de login</h5>
                                         <p>Página con un formulario con inicio de sesión para entrar en la aplicación. La contraseña es encriptada para mayor seguridad.</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Administracion Eccomerce/1.PNG" alt="Pantalla 1" width="720px" height="420px" class="d-block mx-auto">                                    
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/1.PNG" alt="Pantalla 1" width="720px" height="420px" class="d-block mx-auto" loading="lazy">
                                 </div>
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Página de inicio</h5>
                                         <p>Panel de inicio en la aplicación en la que se muestra un menú lateral con las opciones de la aplicación, así como indicadores clave de la aplicación.</p>                                     
                                     </div>
-                                    <img src="assets/img/proyectos/Administracion Eccomerce/2.PNG" alt="Pantalla 2" width="720px" height="420px" class="d-block mx-auto">                                    
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/2.PNG" alt="Pantalla 2" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Página de mantenimiento de rol</h5>
                                         <p>Listado de los roles que se tienen definidos en el sistema, indicando su estatus. El módulo permite crear o editar los roles, ademas de permitir mostrar 10, 25, 50 o 100 registros en la tabla.</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Administracion Eccomerce/3.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">                                    
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/3.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Página de mantenimiento de personas</h5>
                                         <p>Listado de personas registradas en el sistema, indicando sus datos generales y estatus. El módulo permite crear o editar los registros, ademas de permitir mostrar 10, 25, 50 o 100 registros en la tabla.</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Administracion Eccomerce/4.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/4.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto" loading="lazy">
                                 </div>
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Página de mantenimiento de usuarios</h5>
                                         <p>Listado de usuarios asignados a una persona en el sistema. El módulo permite crear o editar los registros, ademas de permitir mostrar 10, 25, 50 o 100 registros en la tabla.</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Administracion Eccomerce/5.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">                                    
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/5.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Página de mantenimiento de productos</h5>
                                         <p>Listado de productos en el sistema, indicando sus datos y una imagen. El módulo permite crear, editar o eliminar los registros, ademas de permitir mostrar 10,25,50 o 100 registros en la tabla.</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Administracion Eccomerce/6.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">                                    
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/6.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Página de mantenimiento de pedidos</h5>
                                         <p>Listado de pedidos en el sistema, indicando sus datos generales. El módulo permite ir a ver más detalles del registro, ademas de permitir mostrar 10,25,50 o 100 registros en la tabla.</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Administracion Eccomerce/7.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">                                    
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/7.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Página de detalles de un pedido</h5>
                                         <p>Muestra el pedido con los datos generales del comprador, así como los artículos adquiridos y el total por ellos.</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Administracion Eccomerce/8.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">                                    
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/8.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>                                
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Formulario de registro</h5>
                                         <p>Modal que permite crear un registro (en este caso un producto)</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Administracion Eccomerce/9.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">                                    
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/9.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
                                     <div class="d-md-block text-center" style="min-height: 100px;">
                                         <h5 class="text-success fw-bold">Formulario de edición</h5>
                                         <p>Modal que permite editar un registro (en este caso un producto)</p>
                                     </div>
-                                    <img src="assets/img/proyectos/Administracion Eccomerce/10.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">                                    
+                                    <img src="assets/img/proyectos/Administracion Eccomerce/10.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>                                
                             </div>      
                             <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP2" data-bs-slide="prev" >
@@ -503,55 +522,54 @@
                         <div id="CarouselP3" class="carousel carousel-dark slide" data-bs-ride="carousel">                           
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/proyectos/Web Eccomerce/1.PNG" alt="Pantalla 1" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Página de inicio</h5>
+                                        <p>Parte superior de la pantalla de inicio en la que se muestra un carrusel de imagenes con un pequeño texto para mostrar información relevante.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Web Eccomerce/1.PNG" alt="Pantalla 1" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                   
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/proyectos/Web Eccomerce/2.PNG" alt="Pantalla 2" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Página de inicio</h5>
+                                        <p>Productos en venta y disponibles para ser añadidos al carrito de compra por el usuario.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Web Eccomerce/2.PNG" alt="Pantalla 2" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/proyectos/Web Eccomerce/3.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Página de carrito de compras</h5>
+                                        <p>Pantalla que muestra los productos añadidos al carrito de compras, mostrando la cantidad y precio a pagar por ellos, así como un total de la compra.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Web Eccomerce/3.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/proyectos/Web Eccomerce/4.PNG" alt="Pantalla 4" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Selección método de pago</h5>
+                                        <p>Pantalla que muestra un mensaje para seleccionar el método de pago por la compra, mostrando el total a pagar así como la opción de usar paypal o efectivo.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Web Eccomerce/4.PNG" alt="Pantalla 4" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/proyectos/Web Eccomerce/5.PNG" alt="Pantalla 5" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Cobro con PayPal</h5>
+                                        <p>Pantalla de cobro de PayPal, esta pantalla es la que ofrece PayPal y la transacción se realiza por este mismo, por lo que la transacción es segura.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Web Eccomerce/5.PNG" alt="Pantalla 5" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/proyectos/Web Eccomerce/6.PNG" alt="Pantalla 6" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Pantalla de agradecimiento</h5>
+                                        <p>Pantalla que muestra un mensaje de agredecimiento e información por la compra realizada, una vez procesada la opción de pago.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Web Eccomerce/6.PNG" alt="Pantalla 6" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                   
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/proyectos/Web Eccomerce/7.PNG" alt="Pantalla 7" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Formulario de contacto</h5>
+                                        <p>Formulario que permite comunicarse con el personal del eccomerce para poder resolver alguna incidencia que se presente, dudas o preguntas generales.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Web Eccomerce/7.PNG" alt="Pantalla 7" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
-
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP3" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
@@ -579,39 +597,39 @@
                         <div id="CarouselP4" class="carousel carousel-dark slide" data-bs-ride="carousel">                            
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/proyectos/Portafolio/1.PNG" alt="Pantalla 1" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Banner principal</h5>
+                                        <p>Se muestra una frase de bienvenida y mi nombre, a su vez el banner cuenta con una pequeña animación al hacer scroll.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Portafolio/1.PNG" alt="Pantalla 1" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/proyectos/Portafolio/2.PNG" alt="Pantalla 2" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Sobre mi</h5>
+                                        <p>Sección que introduce a mi persona de manera breve y permite descargar mi C.V. para conocer más acerca de mi.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Portafolio/2.PNG" alt="Pantalla 2" width="720px" height="420px" class="d-block mx-auto" loading="lazy">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/proyectos/Portafolio/3.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Mis proyectos</h5>
+                                        <p>Sección que muestra de manera general los proyectos que he realizado, al pasar sobre la tarjeta muestra una pequeña descripción y la opción de ver más detalles.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Portafolio/3.PNG" alt="Pantalla 3" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/proyectos/Portafolio/4.PNG" alt="Pantalla 4" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Mis conocimientos</h5>
+                                        <p>Sección que muestra las tecnologías con las que he trabajado y en las cuales me puedo desempeñar.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Portafolio/4.PNG" alt="Pantalla 4" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/proyectos/Portafolio/5.PNG" alt="Pantalla 5" width="720px" height="420px" class="d-block mx-auto">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Contacto</h5>
+                                        <p>Sección que muestra un pequeño formulario para contactarme en caso de requerirlo.</p>
                                     </div>
+                                    <img src="assets/img/proyectos/Portafolio/5.PNG" alt="Pantalla 5" width="720px" height="420px" class="d-block mx-auto" loading="lazy">                                    
                                 </div>                                
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP4" data-bs-slide="prev" >
@@ -637,45 +655,266 @@
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <div id="CarouselP5" class="carousel carousel-dark slide" data-bs-ride="carousel">                            
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Login</h5>
+                                        <p>Módulo de inicio de sesión que permite identificar un usuario y permitirle o denegarle el acceso al sistema.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Farmacia/1.PNG" alt="Pantalla 1" width="600px" height="380px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Pantalla de inicio</h5>
+                                        <p>Interfaz de inicio que da la bienvenida al sistema una vez que el usuario ha sido logeado en el sistema.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Farmacia/2.PNG" alt="Pantalla 2" width="600px" height="380px" class="d-block mx-auto" loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Módulo de ventas</h5>
+                                        <p>En esta sección permite a los usuarios generar una venta de los productos a los clientes, mostrando la cantidad de producto y su precio, calculando el total automaticamente y validando disponibilidad de stock.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Farmacia/3.PNG" alt="Pantalla 3" width="600px" height="380px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Administración de clientes</h5>
+                                        <p>Sección que permite crear, leer, editar o eliminar a clientes del sistema, esto para llevar un registro y poder ofrecer otros servicios.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Farmacia/4.PNG" alt="Pantalla 4" width="600px" height="380px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Administración de productos</h5>
+                                        <p>Sección que permite crear, leer, editar o eliminar productos para llevar el control del stock en la sucursal.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Farmacia/5.PNG" alt="Pantalla 5" width="600px" height="380px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>        
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Administración de vendedores</h5>
+                                        <p>Sección que permite crear, leer, editar o eliminar vendedores de la sucursal.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Farmacia/6.PNG" alt="Pantalla 5" width="600px" height="380px" class="d-block mx-auto" loading="lazy">                                    
+                                </div> 
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Reporte de ventas</h5>
+                                        <p>El sistema permite generar un reporte con las ventas generale o del mes, ademas permit descargarlo o imprimirlo.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Farmacia/7.PNG" alt="Pantalla 5" width="600px" height="380px" class="d-block mx-auto" loading="lazy">                                    
+                                </div> 
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Catálogo de productos</h5>
+                                        <p>Reporte que muestra un catálogo de los productos vendidos por la farmacia, permitiendo imprimirlo para brindarselo a los clientes.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Farmacia/8.PNG" alt="Pantalla 5" width="600px" height="380px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>                                
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP5" data-bs-slide="prev" >
+                                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#CarouselP5" data-bs-slide="next" >
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Modal -->
+        <!-- Modal del proyecto de administrador de ecommerce-->
         <div class="modal fade" style="z-index: 10000;"  id="ProyectoSeisModal" tabindex="-1" aria-labelledby="ProyectoSeisModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
                 <div class="modal-content bg-light">
                     <div class="modal-header bg-dark">
-                        <h5 class="modal-title text-white fw-bold" id="ProyectoSeisModalLabel">Modal title</h5>
+                        <h5 class="modal-title text-white fw-bold" id="ProyectoSeisModalLabel">Administrador de ecommerce desktop</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <div id="CarouselP6" class="carousel carousel-dark slide" data-bs-ride="carousel">                            
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Login</h5>
+                                        <p>Módulo de inicio de sesión que permite identificar un usuario y permitirle o denegarle el acceso al sistema, a pesar de ser una aplicación de escritorio es responsivo.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Administrador Pedidos/1.PNG" alt="Pantalla 1" width="600px" height="420px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Pantalla de pedidos</h5>
+                                        <p>Es la interfaz de inicio al entrar en la aplicación, en esta podemos observar una tabla en la cual se muestran los pedidos del día, ademas de un botón que permite eliminar pedidos completados y generar un reporte con los pedidos.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Administrador Pedidos/2.PNG" alt="Pantalla 2" width="600px" height="420px" class="d-block mx-auto" loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Reporte de pedidos</h5>
+                                        <p>Se puede generar un PDF con los pedidos activos, este se puede imprimir o guardar en el equipo.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Administrador Pedidos/3.PNG" alt="Pantalla 3" width="600px" height="420px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Productos</h5>
+                                        <p>Sección que muestra los productos que se venden en la aplicación web, se pueden ver sus datos generales.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Administrador Pedidos/4.PNG" alt="Pantalla 4" width="600px" height="420px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Registrar productos</h5>
+                                        <p>Sección que permite crear los productos que se encuentran disponibles en la sucursal. No spermite ingresar datos generales y una imagen.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Administrador Pedidos/5.PNG" alt="Pantalla 5" width="600px" height="420px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Editar datos de producto</h5>
+                                        <p>Sección que permite editar los datos de un producto que se encuentre registrado. Primero se ingresa el producto a editar, se busca y si existe muestra los datos actuales los cuales se pueden modificar y despues guardar.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Administrador Pedidos/6.PNG" alt="Pantalla 5" width="600px" height="420px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Eliminar producto</h5>
+                                        <p>Sección que permite eliminar los datos de un producto que se encuentre registrado. Primero se ingresa el producto, se busca y si existe muestra los datos actuales y permite eliminar.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Administrador Pedidos/7.PNG" alt="Pantalla 5" width="600px" height="420px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Catálogo de productos</h5>
+                                        <p>Reporte que muestra un catálogo de los productos, permitiendo imprimirlo para brindarselo a los clientes.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Administrador Pedidos/8.PNG" alt="Pantalla 5" width="600px" height="420px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Reporte de ventas</h5>
+                                        <p>Reporte que muestra las ventas realizadas durante el mes, permitiendo imprimirlo o guardarlo.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Administrador Pedidos/9.PNG" alt="Pantalla 5" width="600px" height="420px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP6" data-bs-slide="prev" >
+                                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#CarouselP6" data-bs-slide="next" >
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Modal -->
+        <!-- Modal para proyecto de libreria -->
         <div class="modal fade" style="z-index: 10000;"  id="ProyectoSieteModal" tabindex="-1" aria-labelledby="ProyectoSieteModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
                 <div class="modal-content bg-light">
                     <div class="modal-header bg-dark">
-                        <h5 class="modal-title text-white fw-bold" id="ProyectoSieteModalLabel">Modal title</h5>
+                        <h5 class="modal-title text-white fw-bold" id="ProyectoSieteModalLabel">Aplicación web para librería</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <div id="CarouselP7" class="carousel carousel-dark slide" data-bs-ride="carousel">                            
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Página principal</h5>
+                                        <p>Página principal de la biblioteca donde se muestra información general como características y servicios de la biblioteca hacia sus visitantes.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/1.png" alt="Pantalla 1" width="480px" class="d-block mx-auto" loading="lazy" style="object-fit: cover;">
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Pantalla de conocenos</h5>
+                                        <p>Página que detalla información de la biblioteca, así como sus horarios de servicio y su ubicación en un mapa.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/2.PNG" alt="Pantalla 2" width="480px" class="d-block mx-auto" loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Nuestros libros</h5>
+                                        <p>Página en la cual se despligan todos los libros con los que se cuentan en la biblioteca, para poder buscar titulos en concreto sin tener que ir al lugar físico.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/3.PNG" alt="Pantalla 3" width="480px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Login de usuario</h5>
+                                        <p>Sección que permite a los usuarios generales identificarse en el sistema y ver información relacionada a sus prestamos.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/4.PNG" alt="Pantalla 4" width="600px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Formulario de registro</h5>
+                                        <p>Formulario de registro para los usuarios generales que no cuentan con una cuenta en el sistema.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/5.PNG" alt="Pantalla 5" width="600px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Login de administrador</h5>
+                                        <p>Sección que permite identificarse en el sistema a los usuarios administradores, a los cuales se les mostrará opciones en base a sus privilegios.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/6.PNG" alt="Pantalla 6" width="600px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Módulo de prestamos</h5>
+                                        <p>Sección que permite llevar la gestión de prestamos de libros a usuarios. Permite ver visualmente cuando yn prestamo vencio (rojo), esta por vencer (amarillo) o esta correcto (verde).</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/7.PNG" alt="Pantalla 7" width="600px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Inventario de libros</h5>
+                                        <p>Sección que permite a los administradores añadir, editar, eliminar y ver los libros con los que se cuentan en la biblioteca.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/8.PNG" alt="Pantalla 8" width="600px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Módulo de autores</h5>
+                                        <p>Sección que permite ver, añadir, editar o eliminar autores de libros.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/9.PNG" alt="Pantalla 9" width="600px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Módulo de editoriales</h5>
+                                        <p>Sección que permite ver, añadir, editar o eliminar editoriales de libros.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/10.PNG" alt="Pantalla 10" width="600px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-block text-center" style="min-height: 100px;">
+                                        <h5 class="text-success fw-bold">Módulo de administración de usuarios</h5>
+                                        <p>Sección que permite ver, añadir, editar o eliminar usuarios.</p>
+                                    </div>
+                                    <img src="assets/img/proyectos/Librería/11.PNG" alt="Pantalla 11" width="600px" class="d-block mx-auto" loading="lazy">                                    
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#CarouselP7" data-bs-slide="prev" >
+                                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#CarouselP7" data-bs-slide="next" >
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -689,8 +928,8 @@
         <script src="https://kit.fontawesome.com/b0f70672d9.js" crossorigin="anonymous"></script>
         <!-- Animación de movimiento de imagenes en la parte superior-->
         <script type="text/javascript" src="js/banner.min.js"></script>
-        <!-- Animación de movimiento dal dar clic a enlace de parte superior-->
-        <script src="js/animar_desplazamiento.min.js"></script>
+        <!-- Animación de movimiento dal dar clic a enlace de parte superior
+        <script src="js/animar_desplazamiento.min.js"></script>-->
         <!-- Animación de elementos para a arecer en pantalla-->
         <script src="js/aperecer-elemento.js"></script>
       

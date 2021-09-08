@@ -43,6 +43,14 @@ $(document).ready(function(){
             scrollTop:contacto
         },500);
     });
+    var contacto2 = $('#contacto').offset().top;
+    $('#boton-contacto').on('click', function(e){
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop:contacto2
+        },0);
+    });
+    
     var inicio = $('#banner').offset().top;
     $('#btn-inicio').on('click', function(e){
         e.preventDefault();

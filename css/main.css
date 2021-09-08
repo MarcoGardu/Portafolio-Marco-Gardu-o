@@ -585,7 +585,7 @@ section.banner .banner-content a:hover{
     .row .col50{
         position: relative;
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     .row .col50 .imgBx{
         height: 300px;        
@@ -719,7 +719,13 @@ section.banner .banner-content a:hover{
         font-size: 16px;
         color: rgb(58, 58, 58);
     }
-
+    .row .col50 .imgBx{      
+        height: 250px;  
+    }    
+    .row .col50 .imgBx img{        
+        margin: 0;
+        height: 250px;
+    }
     .contact .contenedor{
         margin-left: -15px;
         padding: 0px;
@@ -740,7 +746,10 @@ section.banner .banner-content a:hover{
     section.banner #bird2,#bird1{
         display: none;
     }
-
+    
+    .row .col50{        
+        padding: 0;
+    }
     .tecnologia .card-tec {
         width: 150px;
         height: 150px;        
