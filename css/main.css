@@ -294,14 +294,14 @@ section.banner .banner-content a:hover{
     transition: all .5s ease;
 }
 .card:hover .image img {
-    opacity: .5;
-    transform: translateX(30%);/*100%*/        
+    filter: brightness(0.2);
+   
 }
 .card .details {
     position: absolute;
     top: 0;
     left: 0;
-    width: 70%;/*100%*/
+    width: 75%;/*100%*/
     height: 100%;
     background: rgb(255, 208, 0);
     transition: .5s;
@@ -325,7 +325,7 @@ section.banner .banner-content a:hover{
 .card .details .center h1 {
     margin: 0;
     padding: 0;
-    color: #ff0000;
+    color: #df0000;
     text-align: center;
     line-height: 18px;
     font-size: 18px;
@@ -566,12 +566,31 @@ section.banner .banner-content a:hover{
     opacity: 0;    
 }
 
-
+/** desarrolla tu potencial en upiicsa, biblioteca */
 .imagen-carousel1{
-    width:480px; 
-    height:720px;
+    width: 480px; 
+    height: 720px;
     margin-bottom: 10px;
 }
+/** Administrador ecommerce, ecommerce, portafolio */
+.imagen-carousel2{
+    width: 720px; 
+    height: 480px;
+    margin-bottom: 10px;
+}
+/** Farmacia, administrador pedidos */
+.imagen-carousel3{
+    width: 600px; 
+    height: 380px;
+    margin-bottom: 10px;
+}
+/** Biblioteca */
+.imagen-carousel4{
+    width: 640px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width: 991px){
     .m-t-4{ margin-top: 50px; }
     .m-t-5{ margin-top: 75px; }
@@ -616,7 +635,6 @@ section.banner .banner-content a:hover{
         animation: pulse-red 2s infinite;
     }
     
-    
     @keyframes pulse-red {
         0% {
             height: 5px;
@@ -639,7 +657,6 @@ section.banner .banner-content a:hover{
             box-shadow: 0 0 0 20px rgba(255, 0, 0, 0);
           }
     }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -740,6 +757,23 @@ section.banner .banner-content a:hover{
     .contenedor .fila .cajaEntrada .texto{
         font-size: 14px;
     }
+
+    /** Administrador ecommerce, ecommerce, portafolio */
+    .imagen-carousel2{
+        width: 480px; 
+        height: 320px;
+    }
+    /** Farmacia, administrador pedidos */
+    .imagen-carousel3{
+        width: 460px; 
+        height: 300px;
+    }
+    /** Biblioteca */
+    .imagen-carousel4{
+        width: 480px; 
+        height: auto;
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 540px){
@@ -774,6 +808,26 @@ section.banner .banner-content a:hover{
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     }
+    /** desarrolla tu potencial en upiicsa, biblioteca */
+    .imagen-carousel1{
+        width: 360px; 
+        height: 480px;
+    }
+    /** Administrador ecommerce, ecommerce, portafolio */
+    .imagen-carousel2{
+        width: 360px; 
+        height: 240px;
+    }
+    /** Farmacia, administrador pedidos */
+    .imagen-carousel3{
+        width: 360px; 
+        height: 240px;
+    }
+    /** Biblioteca */
+    .imagen-carousel4{
+        width: 360px; 
+        height: auto;
+    }
 }
 @media screen and (max-width: 380px){
     .contenedor .fila{
@@ -781,6 +835,26 @@ section.banner .banner-content a:hover{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    }
+    /** desarrolla tu potencial en upiicsa, biblioteca */
+    .imagen-carousel1{
+        width: 340px; 
+        height: 440px;
+    }
+    /** Administrador ecommerce, ecommerce, portafolio */
+    .imagen-carousel2{
+        width: 340px; 
+        height: 220px;
+    }
+    /** Farmacia, administrador pedidos */
+    .imagen-carousel3{
+        width: 340px; 
+        height: 220px;
+    }
+    /** Biblioteca */
+    .imagen-carousel4{
+        width: 340px; 
+        height: auto;
     }
 }
 
